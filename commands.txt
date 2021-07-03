@@ -1,0 +1,16 @@
+pwd
+ls
+cd desktop
+mkdir basic_repo
+cd basic_repo
+touch index2.html
+touch styles2.css
+git init
+git add .
+git commit -m "make updates"
+git remote add origin https://github.com/MJ-yang38/basic_repo.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m"updated files again"
+git push origin main
